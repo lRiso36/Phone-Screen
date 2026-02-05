@@ -19,25 +19,27 @@
             <button class="arrow-out">^</button>
             <div class="center-contact">
             <div class="pfp">
-                <img src="profilePic.png" class="avatar" />
+                <img src="images/profilePic.png" class="avatar" />
             </div>
             <p class="contact-name">Lena</p>
             </div>
             <button class="facetime">...</button>
         </div>
-        <div class="message-screen">
-            <div class="grey message">Hey</div>
-            <div class="blue message">Hey, how are you?</div>
-            <div class="grey message">Good hbu</div>
-            <div class="blue message">I could be better. Are you going to Sarah's tn?</div>
-            <div class="grey message">Yeah. Do you want to come to mine before so we can go together?</div>
-            <div class="blue message">Sure</div>
+        <div class="message-screen" id="messageScreen">
+            <div class="blue message" >Hey</div>
+            <div class="grey message" >Hey, how are you?</div>
+            <div class="blue message" >Good hbu</div>
+            <div class="grey message" >I could be better. Are you going to Sarah's tn?</div>
+            <div class="blue message" >Yeah. Do you want to come to mine before so we can go together?</div>
+            <div class="grey message" >Sure</div>
         </div>
         <div class="texting-box">
-            <input type="text" class="message-box" placeholder="iMessage"/>
-            <button class="send">↑</button>
+            <input type="text" class="message-box" placeholder="iMessage" id="inputBox"/>
+            <button class="send" id="sendBtn">↑</button>
         </div>
         </div>
     </div>
+    <audio id="sentAudio" src="audios/textSend.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
 </body>
 </html>

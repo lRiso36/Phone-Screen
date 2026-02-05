@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(32, 32, 71);
-    box-shadow: 5px 5px 15px rgba(0,0,0,1);
+    box-shadow: 5px 5px 15px rgba(0,0,0,.5);
     height: 550px;
     width: 300px;
     border-radius: 30px;
@@ -83,6 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    scrollbar-width: none;
     flex: 1;
 }
 .message {
@@ -95,13 +96,13 @@ body {
     font-size: 14px;
     box-shadow: 5px 5px 15px rgba(0,0,0,10);
 }
-.blue {
-    background-color: rgb(28, 87, 180);
+.grey {
+    background-color: grey;
     align-self: flex-start;
     max-width: 200px;
 }
-.grey {
-    background-color: grey;
+.blue {
+    background-color: rgb(28, 87, 180);
     align-self: flex-end;
     max-width: 200px;
 }
